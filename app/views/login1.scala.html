@@ -1,0 +1,15 @@
+@()
+@main("Login") {
+<h2>Login</h2>
+<form method="get" action="/validateGet1">
+    Username: <input type="text" name="username"></input><br>
+    Password: <input type="password" name="password"></input><br>
+    <input type="submit"></input>
+</form>
+
+<form method="post" action="@routes.HomeController.validateLoginPost">
+    Username: <input type="text" name="username"></input><br>
+    Password: <input type="password" name="password"></input><br>
+    <input type="submit"></input>
+</form>
+}
