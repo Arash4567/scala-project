@@ -8,7 +8,12 @@ object TaskListInMemoryModel {
       users.get(username).map(_ == password).getOrElse(false)
   }
 
-  def createUser(username: String, password: String): Boolean = ???
+  def createUser(username: String, password: String): Boolean = {
+      if (users.contains(username)) false else {
+        //   users(username) = password
+          true
+      }
+  }
   
   def getTasks(username: String): Seq[String] = {
       tasks.get(username).getOrElse(Nil)

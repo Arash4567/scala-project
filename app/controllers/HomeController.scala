@@ -70,4 +70,17 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
         }
       }.getOrElse(Redirect(routes.HomeController.login()))
     }
+
+    def createUser = Action { request => 
+      val postVals = request.body.asFormUrlEncoded
+      postVals.map{ args =>
+        val username = args("username").head
+        val password = args("password").head
+        if (TaskListInMemoryModel.createUser(username, password)){
+          Redirect(routes.HomeController.taskList())
+        } else {
+          Redirect(routes.HomeController.login())
+        }
+      }.getOrElse(Redirect(routes.HomeController.login()))
+    }
 }
