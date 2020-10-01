@@ -1,5 +1,6 @@
-@()
+@(message: String)(implicit flsh: Flash)
 
 @main("Welcome to Play") {
   <h1>Welcome to Play!</h1>
+  <h6>@message</h6>
 }

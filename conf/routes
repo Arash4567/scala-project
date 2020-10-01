@@ -9,16 +9,14 @@ GET     /ping                       controllers.HomeController.ping
 GET     /json                       controllers.HomeController.anotherOne
 GET     /name/:name                 controllers.HomeController.nameParam(name: String)
 POST    /post                       controllers.HomeController.posted                  
-
 GET     /taskList                   controllers.HomeController.taskList
 GET     /productArgs                controllers.HomeController.product(prodType, prodNum: Int)
 GET     /product/:prodType/:prodNum controllers.HomeController.product(prodType, prodNum: Int)
-
 GET     /login1                     controllers.HomeController.login
 GET     /validateGet1               controllers.HomeController.validateLoginGet(username, password)
-+ nocsrf
 POST    /validatePost1              controllers.HomeController.validateLoginPost
-+ nocsrf
 POST    /createUser                 controllers.HomeController.createUser
+POST    /addTask                    controllers.HomeController.addTask
+GET     /logout1                    controllers.HomeController.logout
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

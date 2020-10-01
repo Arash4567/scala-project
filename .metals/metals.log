@@ -2959,3 +2959,697 @@ java.nio.file.NoSuchFileException: /home/developer/VSCODE/scala-project/project/
 2020.09.30 21:14:43 INFO  time: compiled root in 5.78s
 Sep 30, 2020 9:18:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+Sep 30, 2020 9:23:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1355
+Sep 30, 2020 9:23:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1356
+2020.09.30 21:24:48 INFO  compiling root (1 scala source)
+2020.09.30 21:24:49 INFO  time: compiled root in 1.5s
+2020.09.30 21:26:23 INFO  compiling root (1 scala source)
+2020.09.30 21:26:26 INFO  time: compiled root in 3.18s
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.09.30 22:24:38 ERROR timeout: build server 'bloop' during shutdown
+2020.09.30 22:24:38 ERROR timeout: build server 'bloop' during shutdown
+2020.09.30 22:24:38 ERROR timeout: build server 'bloop' during shutdown
+2020.09.30 22:24:39 WARN  resetting database: /home/developer/VSCODE/scala-project/.metals/metals.h2.db
+2020.10.01 10:13:34 INFO  started: Metals version 0.9.4 in workspace '/home/developer/VSCODE/scala-project' for client vscode.
+2020.10.01 10:13:39 INFO  time: initialize in 4.62s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher15598835302962520475/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.01 10:13:42 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.10.01 10:13:54 INFO  no build target: using presentation compiler with only scala-library
+2020.10.01 10:13:54 WARN  no build target for: /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/developer/VSCODE/scala-project/.bloop'...
+[0m[32m[D][0m Loading project from '/home/developer/VSCODE/scala-project/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/developer/VSCODE/scala-project/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from '/home/developer/VSCODE/scala-project/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/developer/VSCODE/scala-project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher15598835302962520475/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher15598835302962520475/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.01 10:14:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/developer/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6738167636986302337/bsp.socket'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2529799008975312706/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2529799008975312706/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2529799008975312706/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.01 10:14:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/developer/.cache/metals/bsp.trace.json
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6738167636986302337/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6738167636986302337/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.01 10:14:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/developer/.cache/metals/bsp.trace.json
+2020.10.01 10:14:02 INFO  time: connected to build server in 21s
+2020.10.01 10:14:02 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.01 10:14:07 INFO  time: imported build in 4.43s
+2020.10.01 10:14:20 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.10.01 10:14:24 INFO  time: indexed workspace in 16s
+2020.10.01 10:14:29 INFO  compiling root (1 scala source)
+2020.10.01 10:14:38 INFO  time: compiled root in 8.55s
+2020.10.01 10:17:47 INFO  compiling root (1 scala source)
+2020.10.01 10:17:49 INFO  time: compiled root in 2.21s
+2020.10.01 10:18:03 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += (username -> password)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:18:03 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += (username -> password)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:18:04 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += (username -> password)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:18:04 INFO  compiling root (1 scala source)
+2020.10.01 10:18:04 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:19: stale bloop error: unclosed string literal
+        users += ("username -> password)
+                  ^
+2020.10.01 10:18:04 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:19: stale bloop error: unclosed string literal
+        users += ("username -> password)
+                  ^
+2020.10.01 10:18:04 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:16:7: stale bloop error: ')' expected but '}' found.
+      }
+      ^
+2020.10.01 10:18:04 INFO  time: compiled root in 0.44s
+2020.10.01 10:18:14 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:19: stale bloop error: unclosed string literal
+        users += ("username -> password)
+                  ^
+2020.10.01 10:18:14 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:16:7: stale bloop error: ')' expected but '}' found.
+      }
+      ^
+2020.10.01 10:18:14 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:19: stale bloop error: unclosed string literal
+        users += ("username -> password)
+                  ^
+2020.10.01 10:18:14 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:16:7: stale bloop error: ')' expected but '}' found.
+      }
+      ^
+2020.10.01 10:18:15 INFO  compiling root (1 scala source)
+2020.10.01 10:18:16 INFO  time: compiled root in 1.01s
+2020.10.01 10:18:17 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("username" -> password)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:18:17 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("username" -> password)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:18:18 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("username" -> password)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:18:18 INFO  compiling root (1 scala source)
+2020.10.01 10:18:18 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:33: stale bloop error: unclosed string literal
+        users += ("username" -> "password)
+                                ^
+2020.10.01 10:18:18 INFO  time: compiled root in 0.43s
+2020.10.01 10:18:22 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:33: stale bloop error: unclosed string literal
+        users += ("username" -> "password)
+                                ^
+2020.10.01 10:18:22 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:33: stale bloop error: unclosed string literal
+        users += ("username" -> "password)
+                                ^
+2020.10.01 10:18:23 INFO  compiling root (1 scala source)
+2020.10.01 10:18:25 INFO  time: compiled root in 1.52s
+2020.10.01 10:20:05 INFO  compiling root (1 scala source)
+2020.10.01 10:20:06 INFO  time: compiled root in 1.3s
+2020.10.01 10:24:12 INFO  compiling root (1 scala source)
+2020.10.01 10:24:13 INFO  time: compiled root in 1s
+2020.10.01 10:24:16 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("""username""".stripMargin -> "password")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:24:16 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("""username""".stripMargin -> "password")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:24:16 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("""username""".stripMargin -> "password")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:24:16 INFO  /home/developer/VSCODE/scala-project/app/models/TaskListInMemoryModel.scala:14:9: stale bloop error: value += is not a member of scala.collection.immutable.Map[String,String]
+  Expression does not convert to assignment because receiver is not assignable.
+        users += ("""username""".stripMargin -> "password")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020.10.01 10:24:18 INFO  compiling root (1 scala source)
+2020.10.01 10:24:18 INFO  time: compiled root in 0.81s
+2020.10.01 10:29:07 INFO  compiling root (1 scala source)
+2020.10.01 10:29:07 INFO  time: compiled root in 0.68s
+2020.10.01 10:29:57 INFO  compiling root (1 scala source)
+Oct 01, 2020 10:29:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 202
+2020.10.01 10:30:07 INFO  time: compiled root in 9.87s
+2020.10.01 10:30:08 INFO  compiling root (1 scala source)
+2020.10.01 10:30:08 INFO  time: compiled root in 0.76s
+2020.10.01 10:30:18 INFO  compiling root (1 scala source)
+2020.10.01 10:30:18 INFO  time: compiled root in 0.46s
+2020.10.01 10:30:19 INFO  compiling root (1 scala source)
+2020.10.01 10:30:19 INFO  time: compiled root in 0.14s
+Oct 01, 2020 10:30:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+2020.10.01 10:30:26 INFO  compiling root (1 scala source)
+2020.10.01 10:30:26 INFO  time: compiled root in 0.62s
+2020.10.01 10:30:29 INFO  compiling root (1 scala source)
+2020.10.01 10:30:31 INFO  time: compiled root in 1.19s
+2020.10.01 10:30:32 INFO  compiling root (1 scala source)
+2020.10.01 10:30:35 INFO  time: compiled root in 2.89s
+Oct 01, 2020 10:38:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 362
+Oct 01, 2020 10:38:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 363
+Oct 01, 2020 10:38:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 365
+2020.10.01 10:38:25 INFO  compiling root (1 scala source)
+2020.10.01 10:38:25 INFO  time: compiled root in 0.59s
+2020.10.01 10:38:30 INFO  compiling root (1 scala source)
+2020.10.01 10:38:39 INFO  time: compiled root in 9.27s
+2020.10.01 10:38:39 INFO  compiling root (1 scala source)
+2020.10.01 10:38:49 INFO  time: compiled root in 8.8s
+2020.10.01 10:38:49 INFO  compiling root (1 scala source)
+Oct 01, 2020 10:38:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 469
+2020.10.01 10:38:54 INFO  time: compiled root in 4.57s
+Oct 01, 2020 10:38:54 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.10.01 10:38:54 INFO  compiling root (1 scala source)
+2020.10.01 10:39:00 INFO  time: compiled root in 4.77s
+2020.10.01 10:39:41 INFO  compiling root (1 scala source)
+2020.10.01 10:39:46 INFO  time: compiled root in 4.48s
+2020.10.01 10:40:04 INFO  compiling root (1 scala source)
+2020.10.01 10:40:09 INFO  time: compiled root in 5.56s
+2020.10.01 10:40:09 INFO  compiling root (1 scala source)
+2020.10.01 10:40:11 INFO  time: compiled root in 2.23s
+2020.10.01 10:40:11 INFO  compiling root (1 scala source)
+2020.10.01 10:40:16 INFO  time: compiled root in 4.76s
+2020.10.01 10:40:26 INFO  compiling root (1 scala source)
+2020.10.01 10:40:28 INFO  time: compiled root in 2.15s
+2020.10.01 10:40:28 INFO  compiling root (1 scala source)
+Oct 01, 2020 10:40:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 563
+2020.10.01 10:40:29 INFO  time: compiled root in 1.64s
+2020.10.01 10:40:29 INFO  compiling root (1 scala source)
+2020.10.01 10:40:31 INFO  time: compiled root in 0.43s
+2020.10.01 10:40:38 INFO  compiling root (1 scala source)
+2020.10.01 10:40:39 INFO  time: compiled root in 1.03s
+2020.10.01 10:40:39 INFO  compiling root (1 scala source)
+2020.10.01 10:40:39 INFO  time: compiled root in 0.84s
+Oct 01, 2020 10:40:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 617
+2020.10.01 10:40:42 INFO  compiling root (1 scala source)
+2020.10.01 10:40:42 INFO  time: compiled root in 0.8s
+2020.10.01 10:40:49 INFO  compiling root (1 scala source)
+2020.10.01 10:40:50 INFO  time: compiled root in 1.43s
+2020.10.01 10:40:50 INFO  compiling root (1 scala source)
+2020.10.01 10:40:51 INFO  time: compiled root in 0.96s
+2020.10.01 10:40:51 INFO  compiling root (1 scala source)
+2020.10.01 10:40:52 INFO  time: compiled root in 0.96s
+2020.10.01 10:40:54 INFO  compiling root (1 scala source)
+2020.10.01 10:40:54 INFO  time: compiled root in 0.7s
+2020.10.01 10:41:13 INFO  compiling root (1 scala source)
+2020.10.01 10:41:13 INFO  time: compiled root in 0.85s
+2020.10.01 10:41:14 INFO  compiling root (1 scala source)
+2020.10.01 10:41:14 INFO  time: compiled root in 0.59s
+2020.10.01 10:41:16 INFO  compiling root (1 scala source)
+2020.10.01 10:41:16 INFO  time: compiled root in 0.8s
+2020.10.01 10:41:34 INFO  compiling root (1 scala source)
+2020.10.01 10:41:34 INFO  time: compiled root in 0.69s
+2020.10.01 10:41:36 INFO  compiling root (1 scala source)
+2020.10.01 10:41:36 INFO  time: compiled root in 0.91s
+2020.10.01 10:41:39 INFO  compiling root (1 scala source)
+2020.10.01 10:41:39 INFO  time: compiled root in 0.79s
+2020.10.01 10:41:42 INFO  compiling root (1 scala source)
+2020.10.01 10:41:44 INFO  time: compiled root in 1.37s
+2020.10.01 10:41:44 INFO  compiling root (1 scala source)
+2020.10.01 10:41:45 INFO  time: compiled root in 1.23s
+2020.10.01 10:41:45 INFO  compiling root (1 scala source)
+2020.10.01 10:41:47 INFO  time: compiled root in 1.02s
+2020.10.01 10:41:52 INFO  compiling root (1 scala source)
+2020.10.01 10:41:52 INFO  time: compiled root in 0.81s
+2020.10.01 10:41:54 INFO  compiling root (1 scala source)
+2020.10.01 10:41:54 INFO  time: compiled root in 0.77s
+2020.10.01 10:41:56 INFO  compiling root (1 scala source)
+2020.10.01 10:41:56 INFO  time: compiled root in 0.25s
+2020.10.01 10:42:01 INFO  compiling root (1 scala source)
+2020.10.01 10:42:01 INFO  time: compiled root in 0.27s
+2020.10.01 10:42:03 INFO  compiling root (1 scala source)
+2020.10.01 10:42:04 INFO  time: compiled root in 1.19s
+2020.10.01 10:42:07 INFO  compiling root (1 scala source)
+2020.10.01 10:42:07 INFO  time: compiled root in 0.75s
+2020.10.01 10:42:08 INFO  compiling root (1 scala source)
+2020.10.01 10:42:08 INFO  time: compiled root in 0.62s
+Oct 01, 2020 10:42:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 840
+2020.10.01 10:42:22 INFO  compiling root (1 scala source)
+2020.10.01 10:42:22 INFO  time: compiled root in 0.74s
+2020.10.01 10:42:25 INFO  compiling root (1 scala source)
+2020.10.01 10:42:25 INFO  time: compiled root in 0.84s
+2020.10.01 10:42:40 INFO  compiling root (1 scala source)
+2020.10.01 10:42:40 INFO  time: compiled root in 0.74s
+2020.10.01 10:43:05 INFO  compiling root (1 scala source)
+2020.10.01 10:43:08 INFO  time: compiled root in 3.22s
+2020.10.01 10:45:28 INFO  compiling root (1 scala source)
+2020.10.01 10:45:31 INFO  time: compiled root in 3.47s
+2020.10.01 10:45:33 INFO  compiling root (1 scala source)
+2020.10.01 10:45:38 INFO  time: compiled root in 5.51s
+2020.10.01 10:45:38 INFO  compiling root (1 scala source)
+2020.10.01 10:45:40 INFO  time: compiled root in 2.4s
+2020.10.01 10:45:47 INFO  compiling root (1 scala source)
+2020.10.01 10:45:51 INFO  time: compiled root in 4.62s
+2020.10.01 10:45:53 INFO  compiling root (1 scala source)
+2020.10.01 10:45:57 INFO  time: compiled root in 3.61s
+2020.10.01 10:50:25 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:50:39 INFO  time: compiled root in 13s
+2020.10.01 10:58:44 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:58:46 INFO  time: compiled root in 2.62s
+2020.10.01 10:58:46 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:58:48 INFO  time: compiled root in 2.02s
+2020.10.01 10:58:57 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:59:00 INFO  time: compiled root in 3.38s
+2020.10.01 10:59:00 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:59:00 INFO  time: compiled root in 0.29s
+2020.10.01 10:59:03 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:59:03 INFO  time: compiled root in 0.34s
+2020.10.01 10:59:05 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:59:05 INFO  time: compiled root in 0.27s
+2020.10.01 10:59:06 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 10:59:08 INFO  time: compiled root in 1.87s
+2020.10.01 11:08:29 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 11:08:29 INFO  Deduplicating compilation of root from bsp client 'Metals 0.9.4' (since 54m 26.79s)
+2020.10.01 11:08:32 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 11:08:41 INFO  time: compiled root in 9.38s
+2020.10.01 11:12:25 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 11:12:34 INFO  time: compiled root in 9.45s
+2020.10.01 11:16:19 INFO  compiling root (1 scala source)
+2020.10.01 11:16:22 INFO  time: compiled root in 2.72s
+2020.10.01 11:16:32 INFO  compiling root (1 scala source)
+2020.10.01 11:16:32 INFO  time: compiled root in 0.63s
+2020.10.01 11:16:34 INFO  compiling root (1 scala source)
+2020.10.01 11:16:39 INFO  time: compiled root in 5.32s
+2020.10.01 11:16:41 INFO  compiling root (1 scala source)
+2020.10.01 11:16:41 INFO  time: compiled root in 0.71s
+2020.10.01 11:16:42 INFO  compiling root (1 scala source)
+2020.10.01 11:16:47 INFO  time: compiled root in 4.17s
+2020.10.01 11:16:49 INFO  compiling root (1 scala source)
+2020.10.01 11:16:53 INFO  time: compiled root in 3.56s
+2020.10.01 11:16:54 INFO  compiling root (1 scala source)
+2020.10.01 11:16:57 INFO  time: compiled root in 2.88s
+2020.10.01 11:17:08 INFO  compiling root (1 scala source)
+2020.10.01 11:17:11 INFO  time: compiled root in 2.48s
+2020.10.01 11:17:34 INFO  compiling root (1 scala source)
+2020.10.01 11:17:34 INFO  /home/developer/VSCODE/scala-project/app/controllers/HomeController.scala:63:51: stale bloop error: unclosed string literal
+        } else {User Invalid username or password!")
+                                                  ^
+2020.10.01 11:17:34 INFO  time: compiled root in 0.14s
+2020.10.01 11:17:34 INFO  /home/developer/VSCODE/scala-project/app/controllers/HomeController.scala:63:51: stale bloop error: unclosed string literal
+        } else {User Invalid username or password!")
+                                                  ^
+2020.10.01 11:17:34 INFO  /home/developer/VSCODE/scala-project/app/controllers/HomeController.scala:63:51: stale bloop error: unclosed string literal
+        } else {User Invalid username or password!")
+                                                  ^
+2020.10.01 11:17:34 INFO  /home/developer/VSCODE/scala-project/app/controllers/HomeController.scala:63:51: stale bloop error: unclosed string literal
+        } else {User Invalid username or password!")
+                                                  ^
+2020.10.01 11:17:35 INFO  /home/developer/VSCODE/scala-project/app/controllers/HomeController.scala:63:51: stale bloop error: unclosed string literal
+        } else {User Invalid username or password!")
+                                                  ^
+2020.10.01 11:17:52 INFO  compiling root (1 scala source)
+2020.10.01 11:17:55 INFO  time: compiled root in 3.08s
+2020.10.01 11:18:05 INFO  compiling root (1 scala source)
+2020.10.01 11:18:08 INFO  time: compiled root in 3.47s
+2020.10.01 11:18:14 INFO  compiling root (1 scala source)
+2020.10.01 11:18:18 INFO  time: compiled root in 4.34s
+2020.10.01 11:18:23 INFO  compiling root (1 scala source)
+2020.10.01 11:18:26 INFO  time: compiled root in 3.13s
+2020.10.01 11:18:28 INFO  compiling root (1 scala source)
+2020.10.01 11:18:30 INFO  time: compiled root in 2.36s
+2020.10.01 11:21:59 INFO  compiling root (2 scala sources)
+2020.10.01 11:22:02 INFO  time: compiled root in 3.12s
+2020.10.01 11:22:02 INFO  compiling root (3 scala sources)
+2020.10.01 11:22:02 INFO  time: compiled root in 0.47s
+2020.10.01 11:22:40 INFO  compiling root (3 scala sources)
+2020.10.01 11:22:43 INFO  time: compiled root in 3.17s
+2020.10.01 11:22:43 INFO  compiling root (2 scala sources)
+2020.10.01 11:22:43 INFO  time: compiled root in 0.32s
+2020.10.01 11:23:32 INFO  compiling root (3 scala sources)
+2020.10.01 11:23:34 INFO  time: compiled root in 2.64s
+2020.10.01 11:23:34 INFO  compiling root (2 scala sources)
+2020.10.01 11:23:34 INFO  time: compiled root in 0.35s
+2020.10.01 11:23:49 INFO  compiling root (4 scala sources)
+2020.10.01 11:23:50 INFO  time: compiled root in 1.41s
+2020.10.01 11:24:32 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:32 INFO  time: compiled root in 0.6s
+2020.10.01 11:24:34 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:35 INFO  time: compiled root in 1.09s
+2020.10.01 11:24:39 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:39 INFO  time: compiled root in 0.88s
+2020.10.01 11:24:41 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:41 INFO  time: compiled root in 0.62s
+2020.10.01 11:24:43 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:43 INFO  time: compiled root in 0.63s
+2020.10.01 11:24:47 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:47 INFO  time: compiled root in 0.61s
+2020.10.01 11:24:49 INFO  compiling root (4 scala sources)
+2020.10.01 11:24:49 INFO  time: compiled root in 0.76s
+2020.10.01 11:25:44 INFO  compiling root (4 scala sources)
+2020.10.01 11:25:46 INFO  time: compiled root in 1.32s
+2020.10.01 11:25:46 INFO  compiling root (4 scala sources)
+2020.10.01 11:25:46 INFO  time: compiled root in 0.14s
+2020.10.01 11:25:49 INFO  compiling root (4 scala sources)
+2020.10.01 11:25:49 INFO  time: compiled root in 0.13s
+2020.10.01 11:25:53 INFO  compiling root (4 scala sources)
+2020.10.01 11:25:54 INFO  time: compiled root in 1.02s
+2020.10.01 11:27:46 INFO  compiling root (4 scala sources)
+2020.10.01 11:27:47 INFO  time: compiled root in 1.13s
+2020.10.01 11:28:27 INFO  compiling root (5 scala sources)
+2020.10.01 11:28:27 INFO  time: compiled root in 0.63s
+2020.10.01 11:30:54 INFO  compiling root (5 scala sources)
+2020.10.01 11:30:54 INFO  time: compiled root in 0.72s
+2020.10.01 11:31:22 INFO  compiling root (5 scala sources)
+2020.10.01 11:31:22 INFO  time: compiled root in 0.66s
+2020.10.01 11:31:42 INFO  compiling root (5 scala sources)
+2020.10.01 11:31:42 INFO  time: compiled root in 0.53s
+2020.10.01 11:32:45 INFO  compiling root (5 scala sources)
+2020.10.01 11:32:48 INFO  time: compiled root in 3.06s
+2020.10.01 11:33:00 INFO  compiling root (1 scala source)
+2020.10.01 11:33:04 INFO  time: compiled root in 3.66s
+2020.10.01 11:38:44 INFO  compiling root (1 scala source)
+2020.10.01 11:38:46 INFO  time: compiled root in 1.96s
+2020.10.01 11:41:23 INFO  compiling root (1 scala source)
+2020.10.01 11:41:25 INFO  time: compiled root in 2.28s
+2020.10.01 11:42:37 INFO  compiling root (1 scala source)
+2020.10.01 11:42:39 INFO  time: compiled root in 2.27s
+Oct 01, 2020 11:42:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1815
+2020.10.01 11:42:42 INFO  compiling root (1 scala source)
+2020.10.01 11:42:42 INFO  time: compiled root in 0.47s
+2020.10.01 11:42:47 INFO  compiling root (1 scala source)
+2020.10.01 11:42:53 INFO  time: compiled root in 5.24s
+2020.10.01 11:42:53 INFO  compiling root (1 scala source)
+2020.10.01 11:42:53 INFO  time: compiled root in 0.24s
+2020.10.01 11:42:54 INFO  compiling root (1 scala source)
+2020.10.01 11:42:56 INFO  time: compiled root in 2.67s
+2020.10.01 11:46:08 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 11:46:09 INFO  time: compiled root in 1.05s
+2020.10.01 11:47:13 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 11:47:14 INFO  time: compiled root in 1.21s
+2020.10.01 11:48:30 INFO  compiling root (10 scala sources and 1 java source)
+2020.10.01 11:48:39 INFO  time: compiled root in 9.12s
+2020.10.01 11:48:39 INFO  compiling root (1 scala source)
+Oct 01, 2020 11:48:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1896
+2020.10.01 11:48:40 INFO  time: compiled root in 1.62s
+2020.10.01 11:48:45 INFO  compiling root (1 scala source)
+2020.10.01 11:48:45 INFO  time: compiled root in 0.37s
+2020.10.01 11:49:02 INFO  compiling root (1 scala source)
+2020.10.01 11:49:02 INFO  time: compiled root in 0.26s
+2020.10.01 11:49:06 INFO  compiling root (1 scala source)
+2020.10.01 11:49:06 INFO  time: compiled root in 0.45s
+2020.10.01 11:49:07 INFO  compiling root (1 scala source)
+2020.10.01 11:49:07 INFO  time: compiled root in 0.66s
+2020.10.01 11:49:09 INFO  compiling root (1 scala source)
+2020.10.01 11:49:09 INFO  time: compiled root in 0.44s
+2020.10.01 11:49:19 INFO  compiling root (1 scala source)
+2020.10.01 11:49:19 INFO  time: compiled root in 0.54s
+2020.10.01 11:49:21 INFO  compiling root (1 scala source)
+2020.10.01 11:49:22 INFO  time: compiled root in 1.01s
+2020.10.01 11:49:22 INFO  compiling root (1 scala source)
+2020.10.01 11:49:22 INFO  time: compiled root in 0.72s
+2020.10.01 11:49:24 INFO  compiling root (1 scala source)
+2020.10.01 11:49:24 INFO  time: compiled root in 9ms
+2020.10.01 11:49:27 INFO  compiling root (1 scala source)
+2020.10.01 11:49:27 INFO  time: compiled root in 0.2s
+2020.10.01 11:49:29 INFO  compiling root (1 scala source)
+2020.10.01 11:49:29 INFO  time: compiled root in 0.71s
+2020.10.01 11:49:38 INFO  compiling root (1 scala source)
+2020.10.01 11:49:38 INFO  time: compiled root in 0.92s
+2020.10.01 11:49:39 INFO  compiling root (1 scala source)
+2020.10.01 11:49:39 INFO  time: compiled root in 0.73s
+2020.10.01 11:49:53 INFO  compiling root (1 scala source)
+2020.10.01 11:49:53 INFO  time: compiled root in 0.61s
+2020.10.01 11:49:57 INFO  compiling root (1 scala source)
+2020.10.01 11:49:57 INFO  time: compiled root in 0.64s
+2020.10.01 11:50:18 INFO  compiling root (1 scala source)
+2020.10.01 11:50:18 INFO  time: compiled root in 0.33s
+2020.10.01 11:50:21 INFO  compiling root (1 scala source)
+2020.10.01 11:50:21 INFO  time: compiled root in 0.14s
+2020.10.01 11:50:23 INFO  compiling root (1 scala source)
+2020.10.01 11:50:23 INFO  time: compiled root in 0.18s
+2020.10.01 11:50:25 INFO  compiling root (1 scala source)
+2020.10.01 11:50:26 INFO  time: compiled root in 1.01s
+2020.10.01 11:50:26 INFO  compiling root (1 scala source)
+2020.10.01 11:50:26 INFO  time: compiled root in 0.8s
+2020.10.01 11:50:29 INFO  compiling root (1 scala source)
+2020.10.01 11:50:29 INFO  time: compiled root in 0.52s
+Oct 01, 2020 11:50:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2120
+2020.10.01 11:50:36 INFO  compiling root (1 scala source)
+2020.10.01 11:50:36 INFO  time: compiled root in 0.51s
+2020.10.01 11:50:37 INFO  compiling root (1 scala source)
+2020.10.01 11:50:37 INFO  time: compiled root in 0.37s
+2020.10.01 11:50:46 INFO  compiling root (1 scala source)
+2020.10.01 11:50:46 INFO  time: compiled root in 0.63s
+2020.10.01 11:50:47 INFO  compiling root (1 scala source)
+2020.10.01 11:50:47 INFO  time: compiled root in 0.64s
+Oct 01, 2020 11:50:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2190
+2020.10.01 11:50:50 INFO  compiling root (1 scala source)
+2020.10.01 11:50:50 INFO  time: compiled root in 0.17s
+2020.10.01 11:50:52 INFO  compiling root (1 scala source)
+2020.10.01 11:50:52 INFO  time: compiled root in 0.57s
+2020.10.01 11:50:57 INFO  compiling root (1 scala source)
+2020.10.01 11:50:57 INFO  time: compiled root in 0.46s
+2020.10.01 11:50:59 INFO  compiling root (1 scala source)
+2020.10.01 11:50:59 INFO  time: compiled root in 0.11s
+2020.10.01 11:51:03 INFO  compiling root (1 scala source)
+2020.10.01 11:51:03 INFO  time: compiled root in 0.48s
+2020.10.01 11:51:04 INFO  compiling root (1 scala source)
+2020.10.01 11:51:04 INFO  time: compiled root in 0.39s
+2020.10.01 11:51:15 INFO  compiling root (1 scala source)
+2020.10.01 11:51:15 INFO  time: compiled root in 0.38s
+2020.10.01 11:51:17 INFO  compiling root (1 scala source)
+2020.10.01 11:51:17 INFO  time: compiled root in 0.47s
+2020.10.01 11:51:24 INFO  compiling root (1 scala source)
+2020.10.01 11:51:24 INFO  time: compiled root in 0.69s
+2020.10.01 11:51:26 INFO  compiling root (1 scala source)
+2020.10.01 11:51:26 INFO  time: compiled root in 0.53s
+2020.10.01 11:51:29 INFO  compiling root (1 scala source)
+2020.10.01 11:51:29 INFO  time: compiled root in 0.77s
+2020.10.01 11:51:34 INFO  compiling root (1 scala source)
+2020.10.01 11:51:34 INFO  time: compiled root in 0.43s
+2020.10.01 11:51:35 INFO  compiling root (1 scala source)
+2020.10.01 11:51:35 INFO  time: compiled root in 0.26s
+2020.10.01 11:51:53 INFO  compiling root (1 scala source)
+2020.10.01 11:51:53 INFO  time: compiled root in 0.13s
+2020.10.01 11:51:57 INFO  compiling root (1 scala source)
+2020.10.01 11:51:57 INFO  time: compiled root in 0.42s
+2020.10.01 11:52:08 INFO  compiling root (1 scala source)
+2020.10.01 11:52:08 INFO  time: compiled root in 0.34s
+2020.10.01 11:52:16 INFO  compiling root (1 scala source)
+2020.10.01 11:52:16 INFO  time: compiled root in 0.39s
+2020.10.01 11:52:37 INFO  compiling root (1 scala source)
+2020.10.01 11:52:37 INFO  time: compiled root in 0.17s
+2020.10.01 11:53:12 INFO  compiling root (1 scala source)
+2020.10.01 11:53:12 INFO  time: compiled root in 0.13s
+2020.10.01 11:53:14 INFO  compiling root (1 scala source)
+2020.10.01 11:53:14 INFO  time: compiled root in 0.2s
+2020.10.01 11:53:29 INFO  compiling root (1 scala source)
+2020.10.01 11:53:29 INFO  time: compiled root in 0.27s
+2020.10.01 11:53:30 INFO  compiling root (1 scala source)
+2020.10.01 11:53:30 INFO  time: compiled root in 0.13s
+2020.10.01 11:53:37 INFO  compiling root (1 scala source)
+2020.10.01 11:53:37 INFO  time: compiled root in 0.11s
+2020.10.01 11:53:46 INFO  compiling root (1 scala source)
+2020.10.01 11:53:46 INFO  time: compiled root in 0.13s
+2020.10.01 11:53:48 INFO  compiling root (1 scala source)
+2020.10.01 11:53:48 INFO  time: compiled root in 0.13s
+2020.10.01 11:53:51 INFO  compiling root (1 scala source)
+2020.10.01 11:53:51 INFO  time: compiled root in 0.28s
+2020.10.01 11:54:02 INFO  compiling root (1 scala source)
+2020.10.01 11:54:02 INFO  time: compiled root in 0.13s
+2020.10.01 11:54:09 INFO  compiling root (1 scala source)
+2020.10.01 11:54:09 INFO  time: compiled root in 0.16s
+2020.10.01 11:54:18 INFO  compiling root (1 scala source)
+2020.10.01 11:54:18 INFO  time: compiled root in 0.12s
+2020.10.01 11:54:34 INFO  compiling root (1 scala source)
+2020.10.01 11:54:34 INFO  time: compiled root in 0.17s
+2020.10.01 11:54:37 INFO  compiling root (1 scala source)
+2020.10.01 11:54:37 INFO  time: compiled root in 0.41s
+2020.10.01 11:54:40 INFO  compiling root (1 scala source)
+2020.10.01 11:54:40 INFO  time: compiled root in 0.36s
+2020.10.01 11:54:42 INFO  compiling root (1 scala source)
+2020.10.01 11:54:42 INFO  time: compiled root in 0.76s
+2020.10.01 11:54:52 INFO  compiling root (1 scala source)
+2020.10.01 11:54:52 INFO  time: compiled root in 0.32s
+2020.10.01 11:55:01 INFO  compiling root (1 scala source)
+2020.10.01 11:55:01 INFO  time: compiled root in 0.39s
+2020.10.01 11:55:12 INFO  compiling root (1 scala source)
+2020.10.01 11:55:12 INFO  time: compiled root in 0.36s
+2020.10.01 11:55:37 INFO  compiling root (1 scala source)
+2020.10.01 11:55:40 INFO  time: compiled root in 2.98s
+2020.10.01 11:55:43 INFO  compiling root (1 scala source)
+2020.10.01 11:55:46 INFO  time: compiled root in 3.55s
+2020.10.01 11:55:56 INFO  compiling root (1 scala source)
+2020.10.01 11:55:59 INFO  time: compiled root in 2.57s
+2020.10.01 11:56:33 INFO  compiling root (1 scala source)
+2020.10.01 11:56:35 INFO  time: compiled root in 1.55s
+2020.10.01 11:57:00 INFO  compiling root (1 scala source)
+2020.10.01 11:57:00 INFO  time: compiled root in 0.24s
+2020.10.01 11:57:02 INFO  compiling root (1 scala source)
+2020.10.01 11:57:04 INFO  time: compiled root in 2.04s
+2020.10.01 11:57:09 INFO  compiling root (1 scala source)
+2020.10.01 11:57:10 INFO  time: compiled root in 1.45s
+2020.10.01 11:57:13 INFO  compiling root (1 scala source)
+2020.10.01 11:57:13 INFO  time: compiled root in 0.43s
+2020.10.01 11:57:14 INFO  compiling root (1 scala source)
+2020.10.01 11:57:14 INFO  time: compiled root in 0.15s
+2020.10.01 11:57:17 INFO  compiling root (1 scala source)
+2020.10.01 11:57:17 INFO  time: compiled root in 0.55s
+2020.10.01 11:57:19 INFO  compiling root (1 scala source)
+2020.10.01 11:57:20 INFO  time: compiled root in 1.55s
+2020.10.01 11:57:22 INFO  compiling root (1 scala source)
+2020.10.01 11:57:22 INFO  time: compiled root in 0.38s
+2020.10.01 11:57:24 INFO  compiling root (1 scala source)
+2020.10.01 11:57:24 INFO  time: compiled root in 0.5s
+2020.10.01 11:57:25 INFO  compiling root (1 scala source)
+2020.10.01 11:57:27 INFO  time: compiled root in 1.88s
+2020.10.01 11:57:27 INFO  compiling root (1 scala source)
+2020.10.01 11:57:29 INFO  time: compiled root in 0.8s
+2020.10.01 11:57:30 INFO  compiling root (1 scala source)
+2020.10.01 11:57:30 INFO  time: compiled root in 0.25s
+2020.10.01 11:57:31 INFO  compiling root (1 scala source)
+2020.10.01 11:57:31 INFO  time: compiled root in 34ms
+2020.10.01 11:57:35 INFO  compiling root (1 scala source)
+2020.10.01 11:57:35 INFO  time: compiled root in 0.23s
+2020.10.01 11:57:38 INFO  compiling root (1 scala source)
+2020.10.01 11:57:38 INFO  time: compiled root in 0.23s
+2020.10.01 11:57:40 INFO  compiling root (1 scala source)
+2020.10.01 11:57:40 INFO  time: compiled root in 0.36s
+2020.10.01 11:57:45 INFO  compiling root (1 scala source)
+2020.10.01 11:57:46 INFO  time: compiled root in 1.6s
+Oct 01, 2020 11:57:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2945
+Oct 01, 2020 11:57:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2946
+2020.10.01 11:57:53 INFO  compiling root (1 scala source)
+2020.10.01 11:57:53 INFO  time: compiled root in 0.26s
+2020.10.01 11:57:55 INFO  compiling root (1 scala source)
+2020.10.01 11:57:55 INFO  time: compiled root in 0.5s
+2020.10.01 11:57:56 INFO  compiling root (1 scala source)
+2020.10.01 11:57:56 INFO  time: compiled root in 0.22s
+2020.10.01 11:58:00 INFO  compiling root (1 scala source)
+2020.10.01 11:58:00 INFO  time: compiled root in 0.49s
+2020.10.01 11:58:01 INFO  compiling root (1 scala source)
+2020.10.01 11:58:01 INFO  time: compiled root in 0.48s
+Oct 01, 2020 11:58:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3000
+Oct 01, 2020 11:58:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3001
+2020.10.01 11:58:26 INFO  compiling root (1 scala source)
+2020.10.01 11:58:28 INFO  time: compiled root in 1.93s
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@46ce7b5b rejected from java.util.concurrent.ThreadPoolExecutor@2c00f485[Shutting down, pool size = 7, active threads = 7, queued tasks = 0, completed tasks = 23440]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.success(Promise.scala:86)
+	at scala.concurrent.Promise.success$(Promise.scala:86)
+	at scala.concurrent.impl.Promise$DefaultPromise.success(Promise.scala:187)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@464e39a6 rejected from java.util.concurrent.ThreadPoolExecutor@2c00f485[Shutting down, pool size = 5, active threads = 5, queued tasks = 0, completed tasks = 23442]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.10.01 21:49:39 INFO  started: Metals version 0.9.4 in workspace '/home/developer/VSCODE/scala-project' for client vscode.
+2020.10.01 21:49:44 INFO  time: initialize in 4.55s
