@@ -190,11 +190,11 @@
             ],
             "jars": [
                 "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar",
-                "/home/developer/.sbt/boot/scala-2.12.10/lib/jline.jar",
-                "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+                "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar",
                 "/home/developer/.sbt/boot/scala-2.12.10/lib/jansi.jar",
                 "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
-                "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar"
+                "/home/developer/.sbt/boot/scala-2.12.10/lib/jline.jar",
+                "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
             ],
             "analysis": "/home/developer/VSCODE/scala-project/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {

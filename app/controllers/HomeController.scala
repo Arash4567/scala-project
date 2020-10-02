@@ -7,6 +7,7 @@ import play.api.libs.json._
 import java.awt.Desktop.Action
 import models.TaskListInMemoryModel
 
+
 /**
   * This controller creates an `Action` to handle HTTP requests to the
   * application's home page.
@@ -117,6 +118,22 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
             .map { args =>
               val task = args("newTask").head
               TaskListInMemoryModel.addTask(username, task)
+              Redirect(routes.HomeController.taskList())
+            }
+            .getOrElse(Redirect(routes.HomeController.taskList()))
+        }
+        .getOrElse(Redirect(routes.HomeController.login()))
+    }
+
+    def deleteTask = Action { implicit request =>
+      val usernameOption = request.session.get("username")
+      usernameOption
+        .map { username =>
+          val postVals = request.body.asFormUrlEncoded
+          postVals
+            .map { args =>
+              val index = args("index").head.toInt
+              TaskListInMemoryModel.removeTask(username, index)
               Redirect(routes.HomeController.taskList())
             }
             .getOrElse(Redirect(routes.HomeController.taskList()))

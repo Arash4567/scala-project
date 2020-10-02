@@ -15,6 +15,7 @@
 </form>
 <h3>Create User</h3>
 <form method="post" action="@routes.HomeController.createUser()">
+    @helper.CSRF.formField
     Username: <input type="text" name="username"><br>
     Password: <input type="password" name="password"><br>
     <input type="submit">
