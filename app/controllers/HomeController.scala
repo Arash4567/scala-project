@@ -1,20 +1,20 @@
 package controllers
 
 import javax.inject._
-import play.api._
 import play.api.mvc._
 import play.api.libs.json._
-import java.awt.Desktop.Action
 import models.TaskListInMemoryModel
-
+import play.api.data._
+import play.api.data.Forms._
 
 /**
   * This controller creates an `Action` to handle HTTP requests to the
   * application's home page.
   */
+case class LoginData(username: String, password: String)
 @Singleton
-class HomeController @Inject() (val controllerComponents: ControllerComponents)
-    extends BaseController {
+class HomeController @Inject() (cc: MessagesControllerComponents)
+    extends MessagesAbstractController(cc) {
 
   /**
     * Create an Action to render an HTML page.
@@ -23,6 +23,13 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
     * will be called when the application receives a `GET` request with
     * a path of `/`.
     */
+  val loginForm = Form(
+    mapping(
+      "Username" -> text(3, 10),
+      "Password" -> text(4)
+    )(LoginData.apply)(LoginData.unapply)
+  )
+
   def index() =
     Action { implicit request =>
       Ok(views.html.index("SharedMessage.itWorks"))
@@ -50,7 +57,7 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
     }
   def login =
     Action { implicit request =>
-      Ok(views.html.login1())
+      Ok(views.html.login1(loginForm))
     }
   def validateLoginGet(username: String, password: String) =
     Action {
@@ -72,6 +79,21 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
           }
         }
         .getOrElse(Redirect(routes.HomeController.login()))
+    }
+
+  def validateLoginForm =
+    Action { implicit request =>
+      loginForm.bindFromRequest.fold(
+        forWithError => BadRequest(views.html.login1(forWithError)),
+        ld =>
+          if (TaskListInMemoryModel.validateUser(ld.username, ld.password)) {
+            Redirect(routes.HomeController.taskList())
+              .withSession("username" -> ld.username)
+          } else {
+            Redirect(routes.HomeController.login())
+              .flashing("error" -> "Invalid username or password!")
+          }
+      )
     }
 
   def createUser =
@@ -125,7 +147,8 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
         .getOrElse(Redirect(routes.HomeController.login()))
     }
 
-    def deleteTask = Action { implicit request =>
+  def deleteTask =
+    Action { implicit request =>
       val usernameOption = request.session.get("username")
       usernameOption
         .map { username =>

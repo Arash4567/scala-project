@@ -15,6 +15,7 @@ GET     /product/:prodType/:prodNum controllers.HomeController.product(prodType,
 GET     /login1                     controllers.HomeController.login
 GET     /validateGet1               controllers.HomeController.validateLoginGet(username, password)
 POST    /validatePost1              controllers.HomeController.validateLoginPost
+POST    /validateForm1              controllers.HomeController.validateLoginForm
 POST    /createUser                 controllers.HomeController.createUser
 POST    /addTask                    controllers.HomeController.addTask
 POST    /deleteTask1                controllers.HomeController.deleteTask
