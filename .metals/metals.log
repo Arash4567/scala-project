@@ -48121,3 +48121,4 @@ java.nio.file.NoSuchFileException: /home/developer/.cache/coursier/v1/https/repo
 2020.10.06 09:36:28 INFO  time: indexed workspace in 49s
 Oct 06, 2020 9:38:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+2020.10.06 09:41:35 INFO  compiling root (1 scala source)
