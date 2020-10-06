@@ -163,8 +163,12 @@ class HomeController @Inject() (cc: MessagesControllerComponents)
         }
         .getOrElse(Redirect(routes.HomeController.login()))
     }
-def randomNumber = Action {
-  val r = scala.util.Random
-  Ok(r.nextInt(100).toString)
-}
+  def randomNumber =
+    Action {
+      val r = scala.util.Random
+      Ok(r.nextInt(100).toString)
+    }
+    def randomString(length: Int) = Action {
+      Ok(scala.util.Random.nextString(length))
+    }
 }

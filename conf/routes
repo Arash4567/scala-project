@@ -12,6 +12,8 @@ POST    /post                       controllers.HomeController.posted
 GET     /taskList                   controllers.HomeController.taskList
 GET     /productArgs                controllers.HomeController.product(prodType, prodNum: Int)
 GET     /product/:prodType/:prodNum controllers.HomeController.product(prodType, prodNum: Int)
+
+#Routes for version 1
 GET     /login1                     controllers.HomeController.login
 GET     /validateGet1               controllers.HomeController.validateLoginGet(username, password)
 POST    /validatePost1              controllers.HomeController.validateLoginPost
@@ -21,6 +23,12 @@ POST    /addTask                    controllers.HomeController.addTask
 POST    /deleteTask1                controllers.HomeController.deleteTask
 GET     /logout1                    controllers.HomeController.logout
 GET     /random                     controllers.HomeController.randomNumber
+GET     /randomString/:length       controllers.HomeController.randomString(length: Int)
+
+#Routes for version 2
+GET     /load2                      controllers.TaskList2.load
+GET     /login2                      controllers.TaskList2.login
+
 # Map static resources from the /public folder to the /assets URL path
 
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file)
