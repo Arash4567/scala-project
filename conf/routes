@@ -28,7 +28,7 @@ GET     /randomString/:length       controllers.HomeController.randomString(leng
 #Routes for version 2
 GET     /load2                      controllers.TaskList2.load
 GET     /login2                     controllers.TaskList2.login
-GET     /validate2                  controllers.TaskList2.validate(username, password)
+POST    /validate2                  controllers.TaskList2.validate
 GET     /create2                    controllers.TaskList2.createUser(username, password)
 GET     /deleteTask2                controllers.TaskList2.delete(index: Int)
 GET     /addTask2                   controllers.TaskList2.addTask(task)

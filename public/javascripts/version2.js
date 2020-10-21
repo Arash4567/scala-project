@@ -1,11 +1,19 @@
 console.log("Running version2 JS!");
 
-$("#contents").load("/login2");
+const csrfToken = $("#csrfToken").val();
+const loginRoute = $("#loginRoute").val();
+const validateRoute = $("#validateRoute").val();
+
+$("#contents").load(loginRoute);
 
 function login() {
     const username = $("#loginName").val();
     const password = $("#loginPass").val();
-    $("#contents").load("/validate2?username=" + username + "&password=" + password);
+    $.post(validateRoute,
+        { username, password, csrfToken },
+        data => {
+            $("#contents").html(data)
+        });
 }
 function createUser() {
     const username = $("#createName").val();

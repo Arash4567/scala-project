@@ -301,10 +301,6 @@
                         },
                         {
                             "name": "scala-library",
-                            "path": "/tmp/sbt-global-pluginstub/boot/scala-2.12.10/lib/scala-library.jar"
-                        },
-                        {
-                            "name": "scala-library",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
                         }
@@ -1155,10 +1151,6 @@
                         },
                         {
                             "name": "scala-reflect",
-                            "path": "/tmp/sbt-global-pluginstub/boot/scala-2.12.10/lib/scala-reflect.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10-sources.jar"
                         }
@@ -1173,10 +1165,6 @@
                         {
                             "name": "scala-compiler",
                             "path": "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar"
-                        },
-                        {
-                            "name": "scala-compiler",
-                            "path": "/tmp/sbt-global-pluginstub/boot/scala-2.12.10/lib/scala-compiler.jar"
                         },
                         {
                             "name": "scala-compiler",
@@ -1673,10 +1661,6 @@
                         },
                         {
                             "name": "scala-compiler",
-                            "path": "/tmp/sbt-global-pluginstub/boot/scala-2.12.10/lib/scala-compiler.jar"
-                        },
-                        {
-                            "name": "scala-compiler",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.10/scala-compiler-2.12.10-sources.jar"
                         }
@@ -1691,10 +1675,6 @@
                         {
                             "name": "scala-library",
                             "path": "/home/developer/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "path": "/tmp/sbt-global-pluginstub/boot/scala-2.12.10/lib/scala-library.jar"
                         },
                         {
                             "name": "scala-library",

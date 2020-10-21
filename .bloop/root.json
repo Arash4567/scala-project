@@ -183,6 +183,11 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-javadoc.jar"
                         }
                     ]
                 },
@@ -200,6 +205,11 @@
                             "name": "twirl-api_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-sources.jar"
+                        },
+                        {
+                            "name": "twirl-api_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-javadoc.jar"
                         }
                     ]
                 },
@@ -217,6 +227,11 @@
                             "name": "play-server_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.2/play-server_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-server_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.2/play-server_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -234,6 +249,11 @@
                             "name": "play-logback_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.2/play-logback_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-logback_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.2/play-logback_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -251,6 +271,11 @@
                             "name": "play-akka-http-server_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.2/play-akka-http-server_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-akka-http-server_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.2/play-akka-http-server_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -268,6 +293,11 @@
                             "name": "filters-helpers_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.2/filters-helpers_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "filters-helpers_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.2/filters-helpers_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -285,6 +315,11 @@
                             "name": "play-guice_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.2/play-guice_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-guice_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.2/play-guice_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -302,6 +337,11 @@
                             "name": "scala-xml_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-javadoc.jar"
                         }
                     ]
                 },
@@ -319,6 +359,11 @@
                             "name": "play_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.2/play_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.2/play_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -336,6 +381,11 @@
                             "name": "logback-classic",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -353,6 +403,11 @@
                             "name": "play-streams_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.2/play-streams_2.13-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-streams_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.2/play-streams_2.13-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -370,6 +425,11 @@
                             "name": "akka-http-core_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.12/akka-http-core_2.13-10.1.12-sources.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.12/akka-http-core_2.13-10.1.12-javadoc.jar"
                         }
                     ]
                 },
@@ -387,6 +447,11 @@
                             "name": "guice",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3-sources.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.3/guice-4.2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -404,6 +469,11 @@
                             "name": "guice-assistedinject",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3-sources.jar"
+                        },
+                        {
+                            "name": "guice-assistedinject",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.3/guice-assistedinject-4.2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -421,6 +491,11 @@
                             "name": "guava",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.2-jre/guava-28.2-jre-sources.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.2-jre/guava-28.2-jre-javadoc.jar"
                         }
                     ]
                 },
@@ -438,6 +513,11 @@
                             "name": "jsr305",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar"
                         }
                     ]
                 },
@@ -455,6 +535,11 @@
                             "name": "build-link",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.2/build-link-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "build-link",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.2/build-link-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -472,6 +557,11 @@
                             "name": "slf4j-api",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar"
                         }
                     ]
                 },
@@ -489,6 +579,11 @@
                             "name": "jul-to-slf4j",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-sources.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30-javadoc.jar"
                         }
                     ]
                 },
@@ -506,6 +601,11 @@
                             "name": "jcl-over-slf4j",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30-sources.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30-javadoc.jar"
                         }
                     ]
                 },
@@ -523,6 +623,11 @@
                             "name": "akka-actor_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.5/akka-actor_2.13-2.6.5-sources.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.5/akka-actor_2.13-2.6.5-javadoc.jar"
                         }
                     ]
                 },
@@ -540,6 +645,11 @@
                             "name": "akka-actor-typed_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.5/akka-actor-typed_2.13-2.6.5-sources.jar"
+                        },
+                        {
+                            "name": "akka-actor-typed_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.5/akka-actor-typed_2.13-2.6.5-javadoc.jar"
                         }
                     ]
                 },
@@ -557,6 +667,11 @@
                             "name": "akka-slf4j_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.5/akka-slf4j_2.13-2.6.5-sources.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.5/akka-slf4j_2.13-2.6.5-javadoc.jar"
                         }
                     ]
                 },
@@ -574,6 +689,11 @@
                             "name": "akka-serialization-jackson_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.5/akka-serialization-jackson_2.13-2.6.5-sources.jar"
+                        },
+                        {
+                            "name": "akka-serialization-jackson_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.5/akka-serialization-jackson_2.13-2.6.5-javadoc.jar"
                         }
                     ]
                 },
@@ -591,6 +711,11 @@
                             "name": "jackson-core",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.4/jackson-core-2.10.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.4/jackson-core-2.10.4-javadoc.jar"
                         }
                     ]
                 },
@@ -608,6 +733,11 @@
                             "name": "jackson-annotations",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.4/jackson-annotations-2.10.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.4/jackson-annotations-2.10.4-javadoc.jar"
                         }
                     ]
                 },
@@ -625,6 +755,11 @@
                             "name": "jackson-datatype-jdk8",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.4/jackson-datatype-jdk8-2.10.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.4/jackson-datatype-jdk8-2.10.4-javadoc.jar"
                         }
                     ]
                 },
@@ -642,6 +777,11 @@
                             "name": "jackson-datatype-jsr310",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.4/jackson-datatype-jsr310-2.10.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.4/jackson-datatype-jsr310-2.10.4-javadoc.jar"
                         }
                     ]
                 },
@@ -659,6 +799,11 @@
                             "name": "jackson-databind",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.4/jackson-databind-2.10.4-sources.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.4/jackson-databind-2.10.4-javadoc.jar"
                         }
                     ]
                 },
@@ -676,6 +821,11 @@
                             "name": "play-json_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-json_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -693,6 +843,11 @@
                             "name": "jjwt",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"
+                        },
+                        {
+                            "name": "jjwt",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-javadoc.jar"
                         }
                     ]
                 },
@@ -710,6 +865,11 @@
                             "name": "jakarta.xml.bind-api",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3-javadoc.jar"
                         }
                     ]
                 },
@@ -727,6 +887,11 @@
                             "name": "jakarta.transaction-api",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.transaction-api",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-javadoc.jar"
                         }
                     ]
                 },
@@ -744,6 +909,11 @@
                             "name": "javax.inject",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar"
                         }
                     ]
                 },
@@ -761,6 +931,11 @@
                             "name": "scala-java8-compat_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1-sources.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.1/scala-java8-compat_2.13-0.9.1-javadoc.jar"
                         }
                     ]
                 },
@@ -778,6 +953,11 @@
                             "name": "ssl-config-core_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2-sources.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2-javadoc.jar"
                         }
                     ]
                 },
@@ -795,6 +975,11 @@
                             "name": "scala-parser-combinators_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-javadoc.jar"
                         }
                     ]
                 },
@@ -812,6 +997,11 @@
                             "name": "logback-core",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-javadoc.jar"
                         }
                     ]
                 },
@@ -829,6 +1019,11 @@
                             "name": "reactive-streams",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-javadoc.jar"
                         }
                     ]
                 },
@@ -846,6 +1041,11 @@
                             "name": "akka-stream_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.5/akka-stream_2.13-2.6.5-sources.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.5/akka-stream_2.13-2.6.5-javadoc.jar"
                         }
                     ]
                 },
@@ -863,6 +1063,11 @@
                             "name": "akka-parsing_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.12/akka-parsing_2.13-10.1.12-sources.jar"
+                        },
+                        {
+                            "name": "akka-parsing_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.12/akka-parsing_2.13-10.1.12-javadoc.jar"
                         }
                     ]
                 },
@@ -897,6 +1102,11 @@
                             "name": "failureaccess",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-javadoc.jar"
                         }
                     ]
                 },
@@ -926,6 +1136,11 @@
                             "name": "checker-qual",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.10.0/checker-qual-2.10.0-sources.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.10.0/checker-qual-2.10.0-javadoc.jar"
                         }
                     ]
                 },
@@ -943,6 +1158,11 @@
                             "name": "error_prone_annotations",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4-sources.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4-javadoc.jar"
                         }
                     ]
                 },
@@ -960,6 +1180,11 @@
                             "name": "j2objc-annotations",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-javadoc.jar"
                         }
                     ]
                 },
@@ -977,6 +1202,11 @@
                             "name": "scala-reflect",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3-sources.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3-javadoc.jar"
                         }
                     ]
                 },
@@ -994,6 +1224,11 @@
                             "name": "play-exceptions",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.2/play-exceptions-2.8.2-sources.jar"
+                        },
+                        {
+                            "name": "play-exceptions",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.2/play-exceptions-2.8.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1011,6 +1246,11 @@
                             "name": "config",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-javadoc.jar"
                         }
                     ]
                 },
@@ -1028,6 +1268,11 @@
                             "name": "jackson-module-scala_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.3/jackson-module-scala_2.13-2.10.3-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-scala_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.3/jackson-module-scala_2.13-2.10.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1045,6 +1290,11 @@
                             "name": "jackson-module-parameter-names",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.3/jackson-module-parameter-names-2.10.3-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.3/jackson-module-parameter-names-2.10.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1062,6 +1312,11 @@
                             "name": "jackson-dataformat-cbor",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.3/jackson-dataformat-cbor-2.10.3-sources.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-cbor",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.3/jackson-dataformat-cbor-2.10.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1079,6 +1334,11 @@
                             "name": "play-functional_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-sources.jar"
+                        },
+                        {
+                            "name": "play-functional_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-javadoc.jar"
                         }
                     ]
                 },
@@ -1096,6 +1356,11 @@
                             "name": "joda-time",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"
+                        },
+                        {
+                            "name": "joda-time",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-javadoc.jar"
                         }
                     ]
                 },
@@ -1113,6 +1378,11 @@
                             "name": "jakarta.activation-api",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2-javadoc.jar"
                         }
                     ]
                 },
@@ -1130,6 +1400,11 @@
                             "name": "akka-protobuf-v3_2.13",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.5/akka-protobuf-v3_2.13-2.6.5-sources.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.5/akka-protobuf-v3_2.13-2.6.5-javadoc.jar"
                         }
                     ]
                 },
@@ -1147,6 +1422,11 @@
                             "name": "jackson-module-paranamer",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3-sources.jar"
+                        },
+                        {
+                            "name": "jackson-module-paranamer",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.3/jackson-module-paranamer-2.10.3-javadoc.jar"
                         }
                     ]
                 },
@@ -1164,6 +1444,11 @@
                             "name": "paranamer",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-javadoc.jar"
                         }
                     ]
                 },
@@ -1181,6 +1466,11 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/home/developer/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-javadoc.jar"
                         }
                     ]
                 }
